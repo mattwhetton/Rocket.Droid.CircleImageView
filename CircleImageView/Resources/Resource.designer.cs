@@ -27,11 +27,32 @@ namespace CircleImageView
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f010001
-			public static int border_color = 2130771969;
-			
 			// aapt resource value: 0x7f010000
-			public static int border_width = 2130771968;
+			public static int MvxBind = 2130771968;
+			
+			// aapt resource value: 0x7f010004
+			public static int MvxDropDownItemTemplate = 2130771972;
+			
+			// aapt resource value: 0x7f010005
+			public static int MvxGroupItemTemplate = 2130771973;
+			
+			// aapt resource value: 0x7f010003
+			public static int MvxItemTemplate = 2130771971;
+			
+			// aapt resource value: 0x7f010001
+			public static int MvxLang = 2130771969;
+			
+			// aapt resource value: 0x7f010006
+			public static int MvxSource = 2130771974;
+			
+			// aapt resource value: 0x7f010002
+			public static int MvxTemplate = 2130771970;
+			
+			// aapt resource value: 0x7f010008
+			public static int border_color = 2130771976;
+			
+			// aapt resource value: 0x7f010007
+			public static int border_width = 2130771975;
 			
 			static Attribute()
 			{
@@ -43,19 +64,81 @@ namespace CircleImageView
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f020000
+			public static int MvvmCrossTagId = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public static int MvxBindingTagUnique = 2130837505;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Styleable
 		{
 			
 			public static int[] CircleImageView = new int[]
 			{
-					2130771968,
-					2130771969};
+					2130771975,
+					2130771976};
 			
 			// aapt resource value: 1
 			public static int CircleImageView_border_color = 1;
 			
 			// aapt resource value: 0
 			public static int CircleImageView_border_width = 0;
+			
+			public static int[] MvxBinding = new int[]
+			{
+					2130771968,
+					2130771969};
+			
+			// aapt resource value: 0
+			public static int MvxBinding_MvxBind = 0;
+			
+			// aapt resource value: 1
+			public static int MvxBinding_MvxLang = 1;
+			
+			public static int[] MvxControl = new int[]
+			{
+					2130771970};
+			
+			// aapt resource value: 0
+			public static int MvxControl_MvxTemplate = 0;
+			
+			public static int[] MvxExpandableListView = new int[]
+			{
+					2130771973};
+			
+			// aapt resource value: 0
+			public static int MvxExpandableListView_MvxGroupItemTemplate = 0;
+			
+			public static int[] MvxImageView = new int[]
+			{
+					2130771974};
+			
+			// aapt resource value: 0
+			public static int MvxImageView_MvxSource = 0;
+			
+			public static int[] MvxListView = new int[]
+			{
+					2130771971,
+					2130771972};
+			
+			// aapt resource value: 1
+			public static int MvxListView_MvxDropDownItemTemplate = 1;
+			
+			// aapt resource value: 0
+			public static int MvxListView_MvxItemTemplate = 0;
 			
 			static Styleable()
 			{
