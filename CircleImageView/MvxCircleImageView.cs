@@ -7,6 +7,7 @@ using Android.Widget;
 using CircleImageView;
 using Cirrious.MvvmCross.Binding.Droid.Views;
 using Java.Lang;
+using System;
 
 namespace Rocket.Droid
 {
@@ -48,6 +49,12 @@ namespace Rocket.Droid
 
 		private bool mReady;
 		private bool mSetupPending;
+
+		public MvxCircleImageView(IntPtr javaRef, Android.Runtime.JniHandleOwnership transfer) : base(javaRef, transfer)
+		{
+
+
+		}
 
 		public MvxCircleImageView (Context context) : base(context) {
 			mBorderColor = Color.Black;
